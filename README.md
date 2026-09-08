@@ -68,7 +68,7 @@ LIMIT 10
 ```
 
 
-![Top paying jobs](Project_SQL\assets\1_top_paying_jobs.png)
+![Top paying jobs](Project_SQL/assets/1_top_paying_jobs.png)
 
 - The salary range spans from **$184,000** to **$650,000** per year.
 - The **Data Analyst** role at **Mantys** ($650,000) is an outlier: it's nearly double the second-highest salary, so it should be treated with caution when drawing general conclusions.
