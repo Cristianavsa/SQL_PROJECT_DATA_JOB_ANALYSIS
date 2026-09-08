@@ -109,7 +109,7 @@ ORDER BY
     salary_year_avg DESC
 ``` 
 
-![Skills in top paying jobs](Project_SQL\assets\2_skills_top_paying_jobs.png)
+![Skills in top paying jobs](Project_SQL/assets/2_skills_top_paying_jobs.png)
 
 - **SQL** appears in 100% of postings with recorded skills (8 of 8) — it's a virtually universal requirement, even for the most senior, best-paid roles.
 - **Python** appears in 87.5% (7 of 8).
@@ -137,7 +137,7 @@ LIMIT 5
 
 ``` 
 
-![Top demanded skills](Project_SQL\assets\3_top_demanded_skills.png)
+![Top demanded skills](Project_SQL/assets/3_top_demanded_skills.png)
 
 | Skill | Postings requesting it |
 |---|---:|
@@ -171,7 +171,7 @@ ORDER BY
 LIMIT 25
 ``` 
 
-![Top paying skills](Project_SQL\assets\4_top_paying_skills.png)
+![Top paying skills](Project_SQL/assets/4_top_paying_skills.png)
 
 - The skills with the highest average salary are **not** the most in-demand ones: they're highly specialized tools (**SVN, Solidity, Couchbase, DataRobot, Golang**), likely tied to hybrid roles (data engineering, blockchain, ML engineering) rather than "pure" Data Analyst positions.
 - **SVN** stands out at $400,000 average, but since it appears in very few postings (low `n`), this is a case of **high statistical variance** — it shouldn't be read as a representative market trend, but as a one-off finding from 1-2 outlier postings.
@@ -228,7 +228,7 @@ ORDER BY
 LIMIT 25
 ``` 
 
-![Optimal skills](Project_SQL\assets\5_optimal_skills.png)
+![Optimal skills](Project_SQL/assets/5_optimal_skills.png)
 
 - **SQL** (398 mentions, $96,435 average) and **Python** (236 mentions, $101,512 average) dominate the ideal quadrant: **high demand + strong salary**. They're the non-negotiable foundation of a Data Analyst's toolkit.
 - **Tableau** (230 mentions, $97,978) and **R** (148 mentions, $98,708) follow closely, confirming their relevance in both adoption and compensation.
